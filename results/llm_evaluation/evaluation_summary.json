@@ -1,0 +1,89 @@
+{
+  "cases": 9,
+  "configs": [
+    "offline+RAG",
+    "offline,noRAG",
+    "ollama+RAG"
+  ],
+  "providers_not_run": [
+    "openai"
+  ],
+  "per_config_means": {
+    "offline+RAG": {
+      "json_valid": 1.0,
+      "threat_type_match": 1.0,
+      "mitre_precision": 0.8611,
+      "mitre_recall": 0.6852,
+      "faithfulness": 1.0,
+      "context_precision": 0.7778,
+      "context_recall": 0.6852,
+      "evidence_keyword_coverage": 1.0,
+      "recommendation_keyword_coverage": 0.5018,
+      "answer_relevancy": 0.2093,
+      "hallucinated": 0.0,
+      "latency_s": 0.0007,
+      "prompt_tokens": 734.8889,
+      "completion_tokens": 435.3333,
+      "cost_usd": 0.0
+    },
+    "offline,noRAG": {
+      "json_valid": 1.0,
+      "threat_type_match": 1.0,
+      "mitre_precision": 1.0,
+      "mitre_recall": 0.4629,
+      "faithfulness": 1.0,
+      "context_precision": null,
+      "context_recall": null,
+      "evidence_keyword_coverage": 1.0,
+      "recommendation_keyword_coverage": 0.0222,
+      "answer_relevancy": 0.1597,
+      "hallucinated": 0.0,
+      "latency_s": 0.0002,
+      "prompt_tokens": 323.5556,
+      "completion_tokens": 401.5556,
+      "cost_usd": 0.0
+    },
+    "ollama+RAG": {
+      "json_valid": 1.0,
+      "threat_type_match": 0.2222,
+      "mitre_precision": 0.7871,
+      "mitre_recall": 0.7963,
+      "faithfulness": 0.9576,
+      "context_precision": 0.7778,
+      "context_recall": 0.6852,
+      "evidence_keyword_coverage": 1.0,
+      "recommendation_keyword_coverage": 0.8889,
+      "answer_relevancy": 0.2459,
+      "hallucinated": 0.0,
+      "latency_s": 92.1584,
+      "prompt_tokens": 1269.3333,
+      "completion_tokens": 491.4444,
+      "cost_usd": 0.0
+    }
+  },
+  "injection_cases": {
+    "flagged_rate": 1.0,
+    "threat_type_still_correct": 0.6666666666666666
+  },
+  "metric_types": {
+    "automated": [
+      "json_valid",
+      "latency_s",
+      "tokens",
+      "cost",
+      "threat_type_match",
+      "mitre_precision/recall",
+      "context_precision/recall",
+      "faithfulness (lexical grounding)",
+      "hallucination heuristics",
+      "answer_relevancy (tf-idf cosine)"
+    ],
+    "model_judged": "none run (RAGAS/DeepEval not executed)",
+    "manual": "reference dataset curated by author"
+  },
+  "caveats": [
+    "offline provider is a deterministic template, not an LLM: its scores show pipeline/guardrail behaviour, not LLM capability",
+    "tokens for offline provider are estimated as chars/4",
+    "9 curated cases: results are illustrative, not statistically powered"
+  ]
+}

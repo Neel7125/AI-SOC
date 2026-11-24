@@ -1,0 +1,155 @@
+{
+  "incident_id": "ALT-DBCB0304",
+  "title": "DoS - 185.239.141.221 -> 10.0.1.10",
+  "generated_at": "2026-11-24T11:19:09",
+  "synthetic_data_notice": "Demonstration data is SYNTHETIC unless a real dataset/SIEM feed was configured.",
+  "incident_summary": "Potential Denial of Service (DoS) attack via SYN flood",
+  "event_timeline": [
+    {
+      "time": "2026-11-20T15:18:15",
+      "event": "First related event observed"
+    },
+    {
+      "time": "2026-11-20T15:18:21",
+      "event": "Detected by rule+ml+anomaly"
+    },
+    {
+      "time": "2026-11-20T15:18:21",
+      "event": "Acknowledged by analyst"
+    },
+    {
+      "time": "2026-11-24T10:49:01",
+      "event": "llm:ollama: investigation rag_used=True valid_json=True"
+    }
+  ],
+  "detection_method": "rule+ml+anomaly",
+  "detection_rules": "SYN/packet flood (>=1500 pkts/s and >=100 pkts)",
+  "ml_prediction": "DoS",
+  "prediction_confidence": 1.0,
+  "anomaly_score": 99.97027348394768,
+  "risk_score": 87.6,
+  "risk_level": "Critical",
+  "risk_overridden": false,
+  "risk_components": {
+    "score": 87.6,
+    "level": "Critical",
+    "base_score": 81.5,
+    "context_adjustment": 6.1,
+    "context_detail": {
+      "threat_intel": 2.1,
+      "recurrence": 3.0,
+      "mitre_tactic": 1.0
+    },
+    "components": {
+      "severity": {
+        "value": 80.0,
+        "weight": 0.3,
+        "contribution": 24.0
+      },
+      "impact": {
+        "value": 80.0,
+        "weight": 0.25,
+        "contribution": 20.0
+      },
+      "ml_confidence": {
+        "value": 100.0,
+        "weight": 0.2,
+        "contribution": 20.0
+      },
+      "asset_criticality": {
+        "value": 70.0,
+        "weight": 0.15,
+        "contribution": 10.5
+      },
+      "exploitability": {
+        "value": 70.0,
+        "weight": 0.1,
+        "contribution": 7.0
+      }
+    },
+    "explanation": "severity=80x0.30=24.0; impact=80x0.25=20.0; ml_confidence=100x0.20=20.0; asset_criticality=70x0.15=10.5; exploitability=70x0.10=7.0; context +6.1"
+  },
+  "mitre_mapping": [
+    {
+      "id": "T1498",
+      "name": "Network Denial of Service",
+      "tactic": "Impact",
+      "status": "detection-derived"
+    }
+  ],
+  "supporting_evidence": [
+    "[E1] Event FLW-2024-002626 at 2026-11-20T15:18:15: Flow 185.239.141.221 -> 10.0.1.10:443 932/2 pkts, 50642B out, 0.31s",
+    "[E2] Network/host context: source_ip=185.239.141.221 destination_ip=10.0.1.10 host=web-01 user=None",
+    "[E3] Detection rule(s): SYN/packet flood (>=1500 pkts/s and >=100 pkts)",
+    "[E4] ML classification: DoS (confidence 1.0)",
+    "[E5] Anomaly score: 100.0 (percentile vs benign baseline; unusualness, not maliciousness)",
+    "[E6] Risk score: 87.6 (Critical)",
+    "[E8] Related alerts from same source: 0"
+  ],
+  "llm_investigation": {
+    "incident_summary": "Potential Denial of Service (DoS) attack via SYN flood",
+    "threat_type": "Network-based",
+    "severity": "Critical",
+    "risk_score": 87.6,
+    "mitre_techniques": [
+      "T1498"
+    ],
+    "evidence": [
+      "[E1] Event FLW-2024-002626 at 2026-11-20T15:18:15: Flow 185.239.141.221 -> 10.0.1.10:443 932/2 pkts, 50642B out, 0.31s",
+      "[E2] Network/host context: source_ip=185.239.141.221 destination_ip=10.0.1.10 host=web-01 user=None",
+      "[E3] Detection rule(s): SYN/packet flood (>=1500 pkts/s and >=100 pkts)",
+      "[E4] ML classification: DoS (confidence 1.0)",
+      "[E5] Anomaly score: 100.0 (percentile vs benign baseline; unusualness, not maliciousness)",
+      "[E6] Risk score: 87.6 (Critical)",
+      "[E8] Related alerts from same source: 0"
+    ],
+    "investigation_steps": [
+      "Confirm service degradation (latency, error rates) on the target host (web-01)",
+      "Identify top sources and whether they are spoofed or distributed",
+      "Check upstream/CDN protections and rate limits"
+    ],
+    "recommended_actions": [
+      "Enable SYN cookies and rate limiting [REQUIRES HUMAN APPROVAL - not executed]",
+      "Engage upstream DDoS mitigation",
+      "Block abusive sources [REQUIRES HUMAN APPROVAL - not executed]",
+      "Scale capacity if appropriate"
+    ],
+    "confidence": 0.87,
+    "limitations": [
+      "No response action has been executed; all actions need analyst approval."
+    ],
+    "confirmed_facts": [],
+    "hypotheses": [
+      "The attack may be a slow low-volume exfiltration (blind spot of NET-004)",
+      "The attack may be a low-rate application layer DoS (blind spot of NET-002)"
+    ]
+  },
+  "recommended_response": [
+    "Enable SYN cookies and rate limiting [REQUIRES HUMAN APPROVAL - not executed]",
+    "Engage upstream DDoS mitigation",
+    "Block abusive sources [REQUIRES HUMAN APPROVAL - not executed]",
+    "Scale capacity if appropriate"
+  ],
+  "analyst_notes": [],
+  "final_status": "Investigating",
+  "raw_event": {
+    "event_id": "FLW-2024-002626",
+    "timestamp": "2026-11-20T15:18:23",
+    "source": "csv",
+    "description": "Flow 185.239.141.221 -> 10.0.1.10:443 932/2 pkts, 50642B out, 0.31s",
+    "src_ip": "185.239.141.221",
+    "dst_ip": "10.0.1.10",
+    "hostname": "web-01",
+    "username": null
+  },
+  "audit_trail": [
+    {
+      "id": 1,
+      "ts": "2026-11-24T10:49:01",
+      "alert_id": "ALT-DBCB0304",
+      "actor": "llm:ollama",
+      "action": "investigation",
+      "detail": "rag_used=True valid_json=True"
+    }
+  ]
+}

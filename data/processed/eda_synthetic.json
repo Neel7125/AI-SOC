@@ -1,0 +1,132 @@
+{
+  "dataset": "synthetic",
+  "rows": 12152,
+  "columns": 25,
+  "class_counts": {
+    "BENIGN": 9612,
+    "PortScan": 778,
+    "DoS": 646,
+    "BruteForce": 635,
+    "Exfiltration": 481
+  },
+  "imbalance_ratio_majority_to_minority": 19.98,
+  "missing_values": {
+    "username": 12152
+  },
+  "numeric_summary": {
+    "username": {
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "dst_port": {
+      "mean": 802.1329,
+      "std": 1835.5943,
+      "min": 1.0,
+      "max": 8443.0
+    },
+    "protocol_num": {
+      "mean": 7.0093,
+      "std": 3.1756,
+      "min": 6.0,
+      "max": 17.0
+    },
+    "duration": {
+      "mean": 8.8294,
+      "std": 37.2842,
+      "min": 0.001,
+      "max": 693.748
+    },
+    "fwd_pkts": {
+      "mean": 241.3614,
+      "std": 1278.1239,
+      "min": 1.0,
+      "max": 39273.0
+    },
+    "bwd_pkts": {
+      "mean": 27.2347,
+      "std": 92.2138,
+      "min": 0.0,
+      "max": 2533.0
+    },
+    "fwd_bytes": {
+      "mean": 247776.6608,
+      "std": 1541302.1898,
+      "min": 28.0,
+      "max": 53405846.0
+    },
+    "bwd_bytes": {
+      "mean": 10637.7632,
+      "std": 21152.9307,
+      "min": 0.0,
+      "max": 422537.0
+    },
+    "bytes_per_s": {
+      "mean": 25459.4711,
+      "std": 64085.9314,
+      "min": 10.6315,
+      "max": 2033065.1352
+    },
+    "pkts_per_s": {
+      "mean": 139.3897,
+      "std": 525.2046,
+      "min": 0.0723,
+      "max": 11024.0568
+    },
+    "syn_count": {
+      "mean": 25.9094,
+      "std": 138.507,
+      "min": 1.0,
+      "max": 2468.0
+    },
+    "rst_count": {
+      "mean": 1.2947,
+      "std": 5.9276,
+      "min": 0.0,
+      "max": 44.0
+    },
+    "ack_count": {
+      "mean": 217.2384,
+      "std": 1150.3126,
+      "min": 1.0,
+      "max": 35346.0
+    },
+    "avg_pkt_size": {
+      "mean": 535.4359,
+      "std": 595.2715,
+      "min": 17.6667,
+      "max": 13229.875
+    },
+    "iat_mean": {
+      "mean": 0.1521,
+      "std": 0.3624,
+      "min": 0.0001,
+      "max": 13.8268
+    },
+    "iat_std": {
+      "mean": 0.1367,
+      "std": 0.3723,
+      "min": 0.0,
+      "max": 12.3417
+    },
+    "fwd_pkt_len_mean": {
+      "mean": 326.1875,
+      "std": 370.6793,
+      "min": 11.8633,
+      "max": 13728.7727
+    },
+    "bwd_pkt_len_mean": {
+      "mean": 705.0041,
+      "std": 924.5832,
+      "min": 0.0362,
+      "max": 17225.7601
+    },
+    "is_malicious": {
+      "mean": 0.209,
+      "std": 0.4066,
+      "min": 0.0,
+      "max": 1.0
+    }
+  }
+}

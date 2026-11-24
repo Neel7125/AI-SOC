@@ -1,0 +1,28 @@
+config,case,provider,model,prompt_tokens,completion_tokens,tokens_estimated,cost_usd
+offline+RAG,C01,offline,offline-template-v1 (no LLM),714,420,True,0.0
+offline+RAG,C02,offline,offline-template-v1 (no LLM),731,409,True,0.0
+offline+RAG,C03,offline,offline-template-v1 (no LLM),676,414,True,0.0
+offline+RAG,C04,offline,offline-template-v1 (no LLM),728,440,True,0.0
+offline+RAG,C05,offline,offline-template-v1 (no LLM),799,472,True,0.0
+offline+RAG,C06,offline,offline-template-v1 (no LLM),541,399,True,0.0
+offline+RAG,C07,offline,offline-template-v1 (no LLM),720,430,True,0.0
+offline+RAG,C08,offline,offline-template-v1 (no LLM),825,409,True,0.0
+offline+RAG,C09,offline,offline-template-v1 (no LLM),880,525,True,0.0
+"offline,noRAG",C01,offline,offline-template-v1 (no LLM),305,389,True,0.0
+"offline,noRAG",C02,offline,offline-template-v1 (no LLM),297,380,True,0.0
+"offline,noRAG",C03,offline,offline-template-v1 (no LLM),299,378,True,0.0
+"offline,noRAG",C04,offline,offline-template-v1 (no LLM),312,395,True,0.0
+"offline,noRAG",C05,offline,offline-template-v1 (no LLM),347,423,True,0.0
+"offline,noRAG",C06,offline,offline-template-v1 (no LLM),316,398,True,0.0
+"offline,noRAG",C07,offline,offline-template-v1 (no LLM),310,392,True,0.0
+"offline,noRAG",C08,offline,offline-template-v1 (no LLM),299,383,True,0.0
+"offline,noRAG",C09,offline,offline-template-v1 (no LLM),427,476,True,0.0
+ollama+RAG,C01,ollama,llama3.1,1290,561,False,0.0
+ollama+RAG,C02,ollama,llama3.1,1287,492,False,0.0
+ollama+RAG,C03,ollama,llama3.1,1266,514,False,0.0
+ollama+RAG,C04,ollama,llama3.1,1288,447,False,0.0
+ollama+RAG,C05,ollama,llama3.1,1290,497,False,0.0
+ollama+RAG,C06,ollama,llama3.1,1054,439,False,0.0
+ollama+RAG,C07,ollama,llama3.1,1206,449,False,0.0
+ollama+RAG,C08,ollama,llama3.1,1324,438,False,0.0
+ollama+RAG,C09,ollama,llama3.1,1419,586,False,0.0

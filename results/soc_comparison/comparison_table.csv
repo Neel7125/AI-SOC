@@ -1,0 +1,5 @@
+config,name,events_flagged,precision,recall,f1,false_positive_rate,false_negative_rate,mcc,tp,fp,fn,tn,incidents,incident_precision,MTTD_min,MTTA_min,MTTR_min,sla_ack_compliance,avg_investigation_min,llm_model,llm_sampled_incidents,llm_valid_json_rate,llm_latency_mean_s,llm_tokens_per_incident,llm_cost_per_incident_usd,llm_projected_total_cost_usd,llm_projected_total_tokens,tokens_estimated,alert_reduction_vs_A
+A,Traditional SOC (rules),702,0.84615,0.64565,0.73243,0.03347,0.35435,0.67829,594,108,326,3119,102,0.951,0.077,1.054,29.054,1.0,8.0,,,,,,,,,,0.0
+B,ML SOC (rules + ML),1029,0.87366,0.97717,0.92252,0.04029,0.02283,0.90123,899,130,21,3097,140,0.8071,0.126,2.923,30.923,0.95,8.0,,,,,,,,,,-0.3725
+C,LLM SOC (rules + LLM investigation),702,0.84615,0.64565,0.73243,0.03347,0.35435,0.67829,594,108,326,3119,102,0.951,0.077,0.383,25.183,1.0,4.8,llama3.1,5.0,1.0,166.7929,1779.2,0.0,0.0,181478.0,False,0.0
+D,Combined AI SOC (rules + ML + anomaly + LLM + risk),1055,0.85308,0.97826,0.91139,0.04803,0.02174,0.88744,900,155,20,3072,166,0.6867,0.172,0.975,25.775,1.0,4.8,llama3.1,5.0,1.0,185.0512,1747.8,0.0,0.0,290134.0,False,-0.6275

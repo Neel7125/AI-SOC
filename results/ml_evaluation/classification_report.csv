@@ -1,0 +1,25 @@
+,model,precision,recall,f1-score,support
+BENIGN,random_forest,0.9908,0.9716,0.9811,1442.0
+BruteForce,random_forest,0.9057,1.0,0.9505,96.0
+DoS,random_forest,0.9773,0.8866,0.9297,97.0
+Exfiltration,random_forest,0.9863,1.0,0.9931,72.0
+PortScan,random_forest,0.7958,0.9741,0.876,116.0
+accuracy,random_forest,0.9698,0.9698,0.9698,0.9698
+macro avg,random_forest,0.9312,0.9665,0.9461,1823.0
+weighted avg,random_forest,0.973,0.9698,0.9705,1823.0
+BENIGN,xgboost,0.9881,0.9764,0.9822,1442.0
+BruteForce,xgboost,0.9412,1.0,0.9697,96.0
+DoS,xgboost,0.957,0.9175,0.9368,97.0
+Exfiltration,xgboost,1.0,1.0,1.0,72.0
+PortScan,xgboost,0.8168,0.9224,0.8664,116.0
+accuracy,xgboost,0.972,0.972,0.972,0.972
+macro avg,xgboost,0.9406,0.9633,0.951,1823.0
+weighted avg,xgboost,0.9735,0.972,0.9725,1823.0
+BENIGN,logistic_regression,0.9985,0.9307,0.9634,1442.0
+BruteForce,logistic_regression,0.6575,1.0,0.7934,96.0
+DoS,logistic_regression,0.8198,0.9381,0.875,97.0
+Exfiltration,logistic_regression,0.9863,1.0,0.9931,72.0
+PortScan,logistic_regression,0.7785,1.0,0.8755,116.0
+accuracy,logistic_regression,0.9419,0.9419,0.9419,0.9419
+macro avg,logistic_regression,0.8481,0.9738,0.9001,1823.0
+weighted avg,logistic_regression,0.9566,0.9419,0.9453,1823.0

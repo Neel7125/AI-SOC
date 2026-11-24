@@ -32,20 +32,20 @@ env/
 htmlcov/
 coverage.xml
 
-# Database (auto-generated, can be large)
-data/soc.db
+# Database (currently INCLUDED in the repo — un-comment to exclude again)
+# data/soc.db
 
-# Generated model artifacts (large binary files)
-models/*.joblib
-models/registry.json
+# Generated model artifacts (currently INCLUDED — un-comment to exclude again)
+# models/*.joblib
+# models/registry.json
 
-# Generated synthetic data (auto-recreated by setup_demo.py)
-data/synthetic/
-data/processed/
-data/raw/
+# Generated synthetic data (currently INCLUDED — un-comment to exclude again)
+# data/synthetic/
+# data/processed/
+# data/raw/
 
-# Generated results (charts, CSVs, reports — auto-recreated)
-results/
+# Generated results (currently INCLUDED — un-comment to exclude again)
+# results/
 
 # OS
 .DS_Store
