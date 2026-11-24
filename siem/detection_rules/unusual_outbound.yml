@@ -1,0 +1,12 @@
+title: Large Outbound Transfer
+id: aisoc-net-004
+status: experimental
+description: >=2 MB sent to an external host in one connection (rule NET-004)
+tags: [attack.exfiltration, attack.t1048]
+logsource: {product: zeek, service: conn}
+detection:
+  selection: {orig_bytes|gte: 2000000}
+  filter_internal: {id.resp_h|cidr: ['10.0.0.0/8', '192.168.0.0/16', '172.16.0.0/12']}
+  condition: selection and not filter_internal
+falsepositives: [Scheduled cloud backups]
+level: high

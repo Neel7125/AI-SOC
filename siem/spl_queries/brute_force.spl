@@ -1,0 +1,6 @@
+index=zeek OR index=linux_auth sourcetype=linux_secure "Failed password"
+| rex "from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| bin _time span=5m
+| stats count AS failed_logins dc(user) AS users BY _time src_ip host
+| where failed_logins >= 5
+| sort - failed_logins

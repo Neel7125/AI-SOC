@@ -1,0 +1,10 @@
+title: Network Port Scan
+id: aisoc-net-001
+status: experimental
+description: >=20 distinct destination ports from one source in 60 s (rule NET-001)
+tags: [attack.discovery, attack.t1046]
+logsource: {product: zeek, service: conn}
+detection:
+  timeframe: 1m
+  condition: selection | count(id.resp_p) by id.orig_h >= 20
+level: medium

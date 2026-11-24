@@ -1,0 +1,13 @@
+title: Suspicious PowerShell Execution
+id: aisoc-ep-001
+status: experimental
+description: Encoded commands, download cradles or hidden windows in PowerShell (maps to rule EP-001)
+tags: [attack.execution, attack.t1059.001]
+logsource: {product: windows, category: process_creation}
+detection:
+  selection_img: {Image|endswith: '\powershell.exe'}
+  selection_cmd:
+    CommandLine|contains: ['-enc', '-EncodedCommand', 'DownloadString', 'IEX', 'Invoke-Expression', '-w hidden']
+  condition: selection_img and selection_cmd
+falsepositives: [Hidden-window admin scripts]
+level: high

@@ -1,0 +1,4 @@
+index=zeek sourcetype=zeek_conn NOT (id.resp_h=10.0.0.0/8 OR id.resp_h=192.168.0.0/16 OR id.resp_h=172.16.0.0/12)
+| stats sum(orig_bytes) AS bytes_out count BY id.orig_h id.resp_h
+| where bytes_out > 2000000
+| eval MB=round(bytes_out/1024/1024,2)

@@ -1,0 +1,5 @@
+index=zeek sourcetype=zeek_conn
+| bin _time span=1m
+| stats dc(id.resp_p) AS distinct_ports count BY _time id.orig_h
+| where distinct_ports >= 20
+| rename id.orig_h AS src_ip

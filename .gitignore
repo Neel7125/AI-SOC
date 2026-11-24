@@ -1,0 +1,68 @@
+# =============================================================
+# AI-SOC Demo — .gitignore
+# =============================================================
+
+# Secrets — NEVER commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Database (auto-generated, can be large)
+data/soc.db
+
+# Generated model artifacts (large binary files)
+models/*.joblib
+models/registry.json
+
+# Generated synthetic data (auto-recreated by setup_demo.py)
+data/synthetic/
+data/processed/
+data/raw/
+
+# Generated results (charts, CSVs, reports — auto-recreated)
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows
+*.lnk
+
+# Logs
+*.log
+
+# Temp scripts created during development
+scripts/_*.py

@@ -1,0 +1,3 @@
+index=sysmon EventCode=1 Image="*\\powershell.exe"
+  (CommandLine="*-enc*" OR CommandLine="*-EncodedCommand*" OR CommandLine="*DownloadString*" OR CommandLine="*IEX*" OR CommandLine="*-w hidden*")
+| table _time ComputerName User ParentImage CommandLine

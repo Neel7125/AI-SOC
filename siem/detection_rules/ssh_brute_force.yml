@@ -1,0 +1,11 @@
+title: SSH Brute Force
+id: aisoc-ep-004
+status: experimental
+description: At least 5 failed SSH password events per source in 5 minutes (rule EP-004 / NET-003)
+tags: [attack.credential_access, attack.t1110.001]
+logsource: {product: linux, service: auth}
+detection:
+  selection: {message|contains: 'Failed password'}
+  timeframe: 5m
+  condition: selection | count() by src_ip >= 5
+level: medium

@@ -1,0 +1,3 @@
+index=sysmon EventCode=1
+  (CommandLine="*net localgroup administrators*/add*" OR CommandLine="*whoami /priv*" OR CommandLine="*sekurlsa*" OR CommandLine="*sc config*binPath*")
+| table _time ComputerName User Image CommandLine

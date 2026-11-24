@@ -1,0 +1,3 @@
+index=sysmon (EventCode=11 (TargetFilename="*\\Temp\\*.exe" OR TargetFilename="*.locked" OR TargetFilename="*README_DECRYPT*"))
+   OR (EventCode=1 CommandLine="*vssadmin*delete*shadows*")
+| table _time ComputerName User Image TargetFilename CommandLine

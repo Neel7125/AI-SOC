@@ -1,0 +1,4 @@
+prefix,reputation,note
+185.,70,SYNTHETIC demo feed - suspicious hosting range
+45.,55,SYNTHETIC demo feed - scanner-heavy range
+203.0.113.,90,SYNTHETIC demo feed - known C2 (TEST-NET-3)
