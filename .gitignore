@@ -63,6 +63,8 @@ desktop.ini
 
 # Logs
 *.log
+# ...except the synthetic dataset logs (part of the demo data)
+!data/synthetic/*.log
 
 # Temp scripts created during development
 scripts/_*.py

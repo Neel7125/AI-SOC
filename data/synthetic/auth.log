@@ -1,0 +1,498 @@
+Nov 20 00:00:50 bastion-01 sshd[8129]: Accepted password for bob from 10.0.0.18 port 48458 ssh2
+Nov 20 00:07:34 bastion-01 sshd[5661]: Accepted password for bob from 10.0.0.5 port 49012 ssh2
+Nov 20 00:16:50 bastion-01 sshd[2961]: Accepted password for bob from 10.0.0.39 port 33504 ssh2
+Nov 20 00:22:37 bastion-01 sshd[8718]: Accepted password for dave from 10.0.0.13 port 50629 ssh2
+Nov 20 00:25:48 bastion-01 sshd[1018]: Accepted password for dave from 10.0.0.3 port 36787 ssh2
+Nov 20 00:27:28 bastion-01 sshd[4995]: Accepted password for bob from 10.0.0.26 port 54932 ssh2
+Nov 20 00:35:24 bastion-01 sshd[4844]: Accepted password for alice from 10.0.0.50 port 33816 ssh2
+Nov 20 00:41:34 bastion-01 sshd[6403]: Accepted password for alice from 10.0.0.9 port 43096 ssh2
+Nov 20 00:44:27 bastion-01 sshd[9849]: Accepted password for dave from 10.0.0.30 port 47185 ssh2
+Nov 20 00:46:37 bastion-01 sshd[2689]: Accepted password for bob from 10.0.0.24 port 45564 ssh2
+Nov 20 00:47:30 bastion-01 sshd[2576]: Accepted password for bob from 10.0.0.56 port 48299 ssh2
+Nov 20 00:47:37 bastion-01 sshd[7542]: Accepted password for alice from 10.0.0.13 port 44067 ssh2
+Nov 20 00:50:12 bastion-01 sshd[2473]: Accepted password for alice from 10.0.0.3 port 47876 ssh2
+Nov 20 00:51:35 bastion-01 sshd[8109]: Accepted password for dave from 10.0.0.5 port 40907 ssh2
+Nov 20 00:55:38 bastion-01 sshd[3263]: Accepted password for bob from 10.0.0.8 port 49109 ssh2
+Nov 20 00:56:32 bastion-01 sshd[3392]: Failed password for root from 198.27.234.163 port 42598 ssh2
+Nov 20 00:57:17 bastion-01 sshd[2634]: Failed password for root from 198.27.234.163 port 46138 ssh2
+Nov 20 00:58:02 bastion-01 sshd[9174]: Failed password for invalid user oracle from 198.27.234.163 port 48273 ssh2
+Nov 20 00:58:47 bastion-01 sshd[6840]: Failed password for root from 198.27.234.163 port 30840 ssh2
+Nov 20 00:59:32 bastion-01 sshd[1263]: Failed password for invalid user admin from 198.27.234.163 port 34820 ssh2
+Nov 20 00:59:52 bastion-01 sshd[1174]: Accepted password for alice from 10.0.0.48 port 30880 ssh2
+Nov 20 01:00:17 bastion-01 sshd[6969]: Failed password for invalid user admin from 198.27.234.163 port 34986 ssh2
+Nov 20 01:01:02 bastion-01 sshd[9713]: Failed password for invalid user oracle from 198.27.234.163 port 40274 ssh2
+Nov 20 01:01:47 bastion-01 sshd[6670]: Failed password for invalid user oracle from 198.27.234.163 port 58178 ssh2
+Nov 20 01:02:32 bastion-01 sshd[6218]: Failed password for invalid user admin from 198.27.234.163 port 39969 ssh2
+Nov 20 01:03:17 bastion-01 sshd[1379]: Failed password for alice from 198.27.234.163 port 51266 ssh2
+Nov 20 01:04:02 bastion-01 sshd[3628]: Failed password for root from 198.27.234.163 port 51633 ssh2
+Nov 20 01:04:23 bastion-01 sshd[9849]: Accepted password for alice from 10.0.0.11 port 30718 ssh2
+Nov 20 01:04:47 bastion-01 sshd[4675]: Failed password for invalid user oracle from 198.27.234.163 port 38677 ssh2
+Nov 20 01:05:25 bastion-01 sshd[9528]: Accepted password for bob from 10.0.0.53 port 35416 ssh2
+Nov 20 01:05:30 bastion-01 sshd[3731]: Accepted password for bob from 10.0.0.54 port 34545 ssh2
+Nov 20 01:05:32 bastion-01 sshd[5177]: Failed password for invalid user test from 198.27.234.163 port 36809 ssh2
+Nov 20 01:06:17 bastion-01 sshd[4560]: Failed password for alice from 198.27.234.163 port 36621 ssh2
+Nov 20 01:07:02 bastion-01 sshd[2573]: Failed password for invalid user admin from 198.27.234.163 port 56546 ssh2
+Nov 20 01:07:47 bastion-01 sshd[2749]: Failed password for alice from 198.27.234.163 port 43896 ssh2
+Nov 20 01:08:32 bastion-01 sshd[2564]: Failed password for invalid user test from 198.27.234.163 port 30404 ssh2
+Nov 20 01:09:17 bastion-01 sshd[8934]: Failed password for invalid user admin from 198.27.234.163 port 38417 ssh2
+Nov 20 01:10:02 bastion-01 sshd[9065]: Failed password for invalid user oracle from 198.27.234.163 port 35654 ssh2
+Nov 20 01:10:47 bastion-01 sshd[4877]: Failed password for invalid user test from 198.27.234.163 port 57605 ssh2
+Nov 20 01:11:32 bastion-01 sshd[5232]: Failed password for invalid user test from 198.27.234.163 port 39627 ssh2
+Nov 20 01:12:17 bastion-01 sshd[2183]: Failed password for alice from 198.27.234.163 port 57496 ssh2
+Nov 20 01:13:02 bastion-01 sshd[6107]: Failed password for invalid user oracle from 198.27.234.163 port 45723 ssh2
+Nov 20 01:13:47 bastion-01 sshd[2779]: Failed password for invalid user oracle from 198.27.234.163 port 38614 ssh2
+Nov 20 01:17:01 bastion-01 sshd[7932]: Accepted password for alice from 10.0.0.14 port 52178 ssh2
+Nov 20 01:18:43 bastion-01 sshd[1658]: Accepted password for bob from 10.0.0.3 port 47636 ssh2
+Nov 20 01:27:40 bastion-01 sshd[2934]: Accepted password for bob from 10.0.0.52 port 34792 ssh2
+Nov 20 01:29:08 bastion-01 sshd[9178]: Accepted password for bob from 10.0.0.46 port 53694 ssh2
+Nov 20 01:29:20 bastion-01 sshd[5634]: Failed password for invalid user test from 203.29.6.154 port 48600 ssh2
+Nov 20 01:29:23 bastion-01 sshd[7907]: Failed password for invalid user test from 203.29.6.154 port 58838 ssh2
+Nov 20 01:29:26 bastion-01 sshd[4108]: Failed password for alice from 203.29.6.154 port 36122 ssh2
+Nov 20 01:29:29 bastion-01 sshd[8788]: Failed password for invalid user admin from 203.29.6.154 port 40656 ssh2
+Nov 20 01:29:32 bastion-01 sshd[1924]: Failed password for invalid user test from 203.29.6.154 port 48683 ssh2
+Nov 20 01:29:35 bastion-01 sshd[5157]: Failed password for invalid user test from 203.29.6.154 port 50348 ssh2
+Nov 20 01:29:38 bastion-01 sshd[5924]: Failed password for alice from 203.29.6.154 port 38999 ssh2
+Nov 20 01:29:41 bastion-01 sshd[1073]: Failed password for invalid user admin from 203.29.6.154 port 58313 ssh2
+Nov 20 01:29:44 bastion-01 sshd[2450]: Failed password for alice from 203.29.6.154 port 49849 ssh2
+Nov 20 01:29:47 bastion-01 sshd[7447]: Failed password for invalid user test from 203.29.6.154 port 33955 ssh2
+Nov 20 01:29:50 bastion-01 sshd[7183]: Failed password for root from 203.29.6.154 port 36184 ssh2
+Nov 20 01:29:53 bastion-01 sshd[6628]: Failed password for invalid user test from 203.29.6.154 port 58620 ssh2
+Nov 20 01:29:56 bastion-01 sshd[9193]: Failed password for invalid user oracle from 203.29.6.154 port 49834 ssh2
+Nov 20 01:29:59 bastion-01 sshd[6363]: Failed password for invalid user oracle from 203.29.6.154 port 53447 ssh2
+Nov 20 01:30:02 bastion-01 sshd[8406]: Failed password for invalid user oracle from 203.29.6.154 port 34434 ssh2
+Nov 20 01:30:05 bastion-01 sshd[5055]: Failed password for root from 203.29.6.154 port 54098 ssh2
+Nov 20 01:30:08 bastion-01 sshd[7445]: Failed password for invalid user admin from 203.29.6.154 port 52085 ssh2
+Nov 20 01:30:11 bastion-01 sshd[5656]: Failed password for invalid user oracle from 203.29.6.154 port 56912 ssh2
+Nov 20 01:30:14 bastion-01 sshd[6218]: Failed password for invalid user oracle from 203.29.6.154 port 50844 ssh2
+Nov 20 01:30:17 bastion-01 sshd[9145]: Failed password for invalid user test from 203.29.6.154 port 49166 ssh2
+Nov 20 01:30:20 bastion-01 sshd[8662]: Failed password for alice from 203.29.6.154 port 31548 ssh2
+Nov 20 01:30:23 bastion-01 sshd[7008]: Failed password for invalid user admin from 203.29.6.154 port 49969 ssh2
+Nov 20 01:30:26 bastion-01 sshd[8453]: Failed password for invalid user admin from 203.29.6.154 port 33025 ssh2
+Nov 20 01:30:29 bastion-01 sshd[5304]: Failed password for invalid user admin from 203.29.6.154 port 34219 ssh2
+Nov 20 01:36:51 bastion-01 sshd[1303]: Accepted password for bob from 10.0.0.9 port 40114 ssh2
+Nov 20 01:37:06 bastion-01 sshd[2520]: Accepted password for bob from 10.0.0.25 port 55356 ssh2
+Nov 20 01:37:17 bastion-01 sshd[4850]: Failed password for dave from 10.0.0.28 port 31327 ssh2
+Nov 20 01:46:23 bastion-01 sshd[6831]: Accepted password for alice from 10.0.0.17 port 40370 ssh2
+Nov 20 01:53:09 bastion-01 sshd[3782]: Accepted password for bob from 10.0.0.4 port 37131 ssh2
+Nov 20 01:53:27 bastion-01 sshd[4962]: Accepted password for bob from 10.0.0.5 port 41696 ssh2
+Nov 20 01:57:37 bastion-01 sshd[8163]: Accepted password for alice from 10.0.0.15 port 43552 ssh2
+Nov 20 01:59:41 bastion-01 sshd[3168]: Accepted password for dave from 10.0.0.53 port 34430 ssh2
+Nov 20 01:59:56 bastion-01 sshd[4411]: Accepted password for bob from 10.0.0.44 port 58317 ssh2
+Nov 20 02:04:04 bastion-01 sshd[4611]: Failed password for dave from 10.0.0.34 port 57217 ssh2
+Nov 20 02:10:42 bastion-01 sshd[5151]: Accepted password for bob from 10.0.0.41 port 48405 ssh2
+Nov 20 02:13:46 bastion-01 sshd[9457]: Accepted password for dave from 10.0.0.3 port 51813 ssh2
+Nov 20 02:16:59 bastion-01 sshd[2720]: Accepted password for alice from 10.0.0.24 port 42563 ssh2
+Nov 20 02:18:19 bastion-01 sshd[7742]: Accepted password for bob from 10.0.0.20 port 30861 ssh2
+Nov 20 02:30:03 bastion-01 sshd[2655]: Accepted password for dave from 10.0.0.24 port 36719 ssh2
+Nov 20 02:34:11 bastion-01 sshd[5376]: Failed password for dave from 10.0.0.22 port 34782 ssh2
+Nov 20 02:35:06 bastion-01 sshd[8110]: Accepted password for bob from 10.0.0.28 port 44048 ssh2
+Nov 20 02:38:45 bastion-01 sshd[1735]: Accepted password for dave from 10.0.0.33 port 40408 ssh2
+Nov 20 02:42:18 bastion-01 sshd[3244]: Accepted password for dave from 10.0.0.18 port 59159 ssh2
+Nov 20 02:55:35 bastion-01 sshd[4157]: Accepted password for bob from 10.0.0.24 port 51171 ssh2
+Nov 20 02:55:52 bastion-01 sshd[3062]: Accepted password for dave from 10.0.0.4 port 37367 ssh2
+Nov 20 02:55:59 bastion-01 sshd[5435]: Accepted password for dave from 10.0.0.54 port 46948 ssh2
+Nov 20 02:57:21 bastion-01 sshd[7164]: Accepted password for bob from 10.0.0.24 port 45271 ssh2
+Nov 20 03:00:01 bastion-01 sshd[2220]: Accepted password for dave from 10.0.0.19 port 47914 ssh2
+Nov 20 03:05:08 bastion-01 sshd[7408]: Accepted password for dave from 10.0.0.30 port 30860 ssh2
+Nov 20 03:11:25 bastion-01 sshd[2057]: Accepted password for bob from 10.0.0.36 port 40768 ssh2
+Nov 20 03:13:39 bastion-01 sshd[4890]: Accepted password for alice from 10.0.0.2 port 58333 ssh2
+Nov 20 03:21:59 bastion-01 sshd[2536]: Accepted password for alice from 10.0.0.53 port 56300 ssh2
+Nov 20 03:22:37 bastion-01 sshd[3698]: Accepted password for alice from 10.0.0.6 port 50607 ssh2
+Nov 20 03:26:48 bastion-01 sshd[7167]: Accepted password for bob from 10.0.0.27 port 56840 ssh2
+Nov 20 03:27:15 bastion-01 sshd[4113]: Accepted password for dave from 10.0.0.28 port 54056 ssh2
+Nov 20 03:33:00 bastion-01 sshd[5884]: Accepted password for bob from 10.0.0.55 port 33893 ssh2
+Nov 20 03:36:59 bastion-01 sshd[4284]: Failed password for dave from 10.0.0.3 port 40832 ssh2
+Nov 20 03:41:09 bastion-01 sshd[1521]: Accepted password for alice from 10.0.0.35 port 49900 ssh2
+Nov 20 03:43:04 bastion-01 sshd[3651]: Accepted password for bob from 10.0.0.48 port 49108 ssh2
+Nov 20 03:45:02 bastion-01 sshd[6828]: Accepted password for alice from 10.0.0.2 port 51511 ssh2
+Nov 20 03:48:48 bastion-01 sshd[4994]: Accepted password for bob from 10.0.0.32 port 50785 ssh2
+Nov 20 03:49:04 bastion-01 sshd[7807]: Accepted password for alice from 10.0.0.23 port 32142 ssh2
+Nov 20 03:49:39 bastion-01 sshd[6821]: Accepted password for bob from 10.0.0.27 port 41842 ssh2
+Nov 20 03:49:59 bastion-01 sshd[6007]: Accepted password for alice from 10.0.0.56 port 39958 ssh2
+Nov 20 03:50:08 bastion-01 sshd[8376]: Accepted password for alice from 10.0.0.59 port 50731 ssh2
+Nov 20 03:57:42 bastion-01 sshd[1155]: Accepted password for alice from 10.0.0.15 port 33462 ssh2
+Nov 20 04:02:10 bastion-01 sshd[6650]: Accepted password for bob from 10.0.0.7 port 35124 ssh2
+Nov 20 04:02:22 bastion-01 sshd[5118]: Accepted password for alice from 10.0.0.36 port 33815 ssh2
+Nov 20 04:33:56 bastion-01 sshd[6128]: Accepted password for alice from 10.0.0.56 port 45331 ssh2
+Nov 20 04:41:29 bastion-01 sshd[1161]: Accepted password for alice from 10.0.0.34 port 59403 ssh2
+Nov 20 04:43:04 bastion-01 sshd[7253]: Failed password for alice from 185.12.203.229 port 39310 ssh2
+Nov 20 04:43:07 bastion-01 sshd[2773]: Failed password for alice from 185.12.203.229 port 32315 ssh2
+Nov 20 04:43:10 bastion-01 sshd[1798]: Failed password for invalid user test from 185.12.203.229 port 47454 ssh2
+Nov 20 04:43:13 bastion-01 sshd[8897]: Failed password for invalid user oracle from 185.12.203.229 port 48479 ssh2
+Nov 20 04:43:16 bastion-01 sshd[8298]: Failed password for root from 185.12.203.229 port 45118 ssh2
+Nov 20 04:43:19 bastion-01 sshd[6735]: Failed password for root from 185.12.203.229 port 44827 ssh2
+Nov 20 04:43:22 bastion-01 sshd[8207]: Failed password for invalid user admin from 185.12.203.229 port 48922 ssh2
+Nov 20 04:43:25 bastion-01 sshd[8362]: Failed password for invalid user admin from 185.12.203.229 port 41987 ssh2
+Nov 20 04:43:28 bastion-01 sshd[1295]: Failed password for alice from 185.12.203.229 port 43085 ssh2
+Nov 20 04:43:31 bastion-01 sshd[5939]: Failed password for invalid user oracle from 185.12.203.229 port 43398 ssh2
+Nov 20 04:43:34 bastion-01 sshd[4401]: Failed password for invalid user test from 185.12.203.229 port 55761 ssh2
+Nov 20 04:43:37 bastion-01 sshd[9683]: Failed password for invalid user oracle from 185.12.203.229 port 55588 ssh2
+Nov 20 04:43:40 bastion-01 sshd[8795]: Failed password for alice from 185.12.203.229 port 43541 ssh2
+Nov 20 04:43:43 bastion-01 sshd[3359]: Failed password for invalid user admin from 185.12.203.229 port 48248 ssh2
+Nov 20 04:43:46 bastion-01 sshd[4486]: Failed password for invalid user admin from 185.12.203.229 port 51274 ssh2
+Nov 20 04:43:49 bastion-01 sshd[8166]: Failed password for alice from 185.12.203.229 port 53807 ssh2
+Nov 20 04:48:31 bastion-01 sshd[6863]: Accepted password for bob from 10.0.0.33 port 47099 ssh2
+Nov 20 04:58:05 bastion-01 sshd[3908]: Accepted password for dave from 10.0.0.17 port 54254 ssh2
+Nov 20 04:58:35 bastion-01 sshd[2190]: Accepted password for dave from 10.0.0.43 port 38638 ssh2
+Nov 20 05:14:43 bastion-01 sshd[6903]: Failed password for dave from 10.0.0.56 port 31415 ssh2
+Nov 20 05:15:00 bastion-01 sshd[2131]: Accepted password for bob from 10.0.0.23 port 50192 ssh2
+Nov 20 05:17:37 bastion-01 sshd[8850]: Accepted password for alice from 10.0.0.11 port 36286 ssh2
+Nov 20 05:19:58 bastion-01 sshd[3140]: Accepted password for bob from 10.0.0.36 port 39557 ssh2
+Nov 20 05:20:46 bastion-01 sshd[6170]: Accepted password for dave from 10.0.0.19 port 47250 ssh2
+Nov 20 05:21:38 bastion-01 sshd[6065]: Accepted password for bob from 10.0.0.29 port 40916 ssh2
+Nov 20 05:28:52 bastion-01 sshd[3561]: Accepted password for bob from 10.0.0.42 port 54378 ssh2
+Nov 20 05:42:15 bastion-01 sshd[8532]: Accepted password for dave from 10.0.0.52 port 34887 ssh2
+Nov 20 05:45:20 bastion-01 sshd[9362]: Accepted password for dave from 10.0.0.38 port 52040 ssh2
+Nov 20 05:49:20 bastion-01 sshd[6322]: Accepted password for dave from 10.0.0.32 port 53917 ssh2
+Nov 20 05:57:16 bastion-01 sshd[3671]: Accepted password for alice from 10.0.0.29 port 38636 ssh2
+Nov 20 06:07:48 bastion-01 sshd[7441]: Accepted password for alice from 10.0.0.52 port 43085 ssh2
+Nov 20 06:11:43 bastion-01 sshd[5526]: Failed password for bob from 10.0.0.58 port 40220 ssh2
+Nov 20 06:15:04 bastion-01 sshd[8177]: Accepted password for bob from 10.0.0.42 port 46089 ssh2
+Nov 20 06:17:43 bastion-01 sshd[9839]: Accepted password for bob from 10.0.0.50 port 33418 ssh2
+Nov 20 06:25:13 bastion-01 sshd[9615]: Accepted password for alice from 10.0.0.51 port 37879 ssh2
+Nov 20 06:26:45 bastion-01 sshd[7078]: Accepted password for alice from 10.0.0.7 port 39801 ssh2
+Nov 20 06:34:17 bastion-01 sshd[6779]: Accepted password for dave from 10.0.0.42 port 58658 ssh2
+Nov 20 06:35:38 bastion-01 sshd[5202]: Accepted password for dave from 10.0.0.3 port 30635 ssh2
+Nov 20 06:39:21 bastion-01 sshd[1310]: Accepted password for dave from 10.0.0.33 port 57302 ssh2
+Nov 20 06:39:52 bastion-01 sshd[2663]: Accepted password for dave from 10.0.0.55 port 55292 ssh2
+Nov 20 06:53:35 bastion-01 sshd[9385]: Accepted password for alice from 10.0.0.29 port 43466 ssh2
+Nov 20 06:54:38 bastion-01 sshd[3045]: Accepted password for dave from 10.0.0.10 port 55013 ssh2
+Nov 20 06:58:12 bastion-01 sshd[7233]: Accepted password for alice from 10.0.0.48 port 46597 ssh2
+Nov 20 06:58:13 bastion-01 sshd[6394]: Accepted password for dave from 10.0.0.9 port 58490 ssh2
+Nov 20 07:02:26 bastion-01 sshd[5961]: Accepted password for alice from 10.0.0.53 port 34315 ssh2
+Nov 20 07:11:52 bastion-01 sshd[2615]: Accepted password for alice from 10.0.0.52 port 39861 ssh2
+Nov 20 07:19:40 bastion-01 sshd[3481]: Accepted password for alice from 10.0.0.9 port 30890 ssh2
+Nov 20 07:20:44 bastion-01 sshd[9480]: Accepted password for bob from 10.0.0.35 port 41378 ssh2
+Nov 20 07:24:32 bastion-01 sshd[7971]: Accepted password for dave from 10.0.0.20 port 35180 ssh2
+Nov 20 07:25:25 bastion-01 sshd[2314]: Accepted password for dave from 10.0.0.21 port 49711 ssh2
+Nov 20 07:33:54 bastion-01 sshd[6124]: Accepted password for dave from 10.0.0.24 port 33469 ssh2
+Nov 20 07:41:59 bastion-01 sshd[9584]: Accepted password for alice from 10.0.0.38 port 51340 ssh2
+Nov 20 07:45:46 bastion-01 sshd[3358]: Accepted password for bob from 10.0.0.39 port 45372 ssh2
+Nov 20 07:46:32 bastion-01 sshd[8794]: Accepted password for dave from 10.0.0.32 port 36103 ssh2
+Nov 20 07:47:28 bastion-01 sshd[8449]: Failed password for bob from 10.0.0.59 port 50118 ssh2
+Nov 20 07:47:42 bastion-01 sshd[1826]: Accepted password for bob from 10.0.0.39 port 33919 ssh2
+Nov 20 07:47:47 bastion-01 sshd[9975]: Accepted password for alice from 10.0.0.31 port 56723 ssh2
+Nov 20 07:59:11 bastion-01 sshd[1216]: Accepted password for dave from 10.0.0.20 port 30364 ssh2
+Nov 20 07:59:17 bastion-01 sshd[1425]: Accepted password for bob from 10.0.0.35 port 33560 ssh2
+Nov 20 08:05:02 bastion-01 sshd[8272]: Accepted password for dave from 10.0.0.39 port 44370 ssh2
+Nov 20 08:09:43 bastion-01 sshd[2756]: Accepted password for bob from 10.0.0.45 port 34597 ssh2
+Nov 20 08:13:22 bastion-01 sshd[8481]: Accepted password for dave from 10.0.0.12 port 42275 ssh2
+Nov 20 08:22:27 bastion-01 sshd[3155]: Accepted password for bob from 10.0.0.43 port 46806 ssh2
+Nov 20 08:23:16 bastion-01 sshd[9655]: Accepted password for alice from 10.0.0.43 port 42229 ssh2
+Nov 20 08:28:42 bastion-01 sshd[6327]: Accepted password for dave from 10.0.0.36 port 54066 ssh2
+Nov 20 08:30:31 bastion-01 sshd[5861]: Accepted password for dave from 10.0.0.44 port 50465 ssh2
+Nov 20 08:31:45 bastion-01 sshd[9948]: Accepted password for dave from 10.0.0.33 port 36496 ssh2
+Nov 20 08:40:05 bastion-01 sshd[9117]: Failed password for root from 203.124.238.34 port 57251 ssh2
+Nov 20 08:40:08 bastion-01 sshd[8177]: Failed password for invalid user oracle from 203.124.238.34 port 53105 ssh2
+Nov 20 08:40:11 bastion-01 sshd[9225]: Failed password for root from 203.124.238.34 port 56750 ssh2
+Nov 20 08:40:14 bastion-01 sshd[5104]: Failed password for invalid user oracle from 203.124.238.34 port 39168 ssh2
+Nov 20 08:40:17 bastion-01 sshd[9651]: Failed password for alice from 203.124.238.34 port 34692 ssh2
+Nov 20 08:40:20 bastion-01 sshd[2027]: Failed password for root from 203.124.238.34 port 56913 ssh2
+Nov 20 08:40:23 bastion-01 sshd[4774]: Failed password for invalid user test from 203.124.238.34 port 39358 ssh2
+Nov 20 08:40:26 bastion-01 sshd[9841]: Failed password for invalid user admin from 203.124.238.34 port 44237 ssh2
+Nov 20 08:40:29 bastion-01 sshd[4597]: Failed password for root from 203.124.238.34 port 31569 ssh2
+Nov 20 08:40:32 bastion-01 sshd[5883]: Failed password for alice from 203.124.238.34 port 54183 ssh2
+Nov 20 08:40:35 bastion-01 sshd[7719]: Failed password for invalid user oracle from 203.124.238.34 port 30774 ssh2
+Nov 20 08:40:38 bastion-01 sshd[8988]: Failed password for invalid user admin from 203.124.238.34 port 43196 ssh2
+Nov 20 08:40:41 bastion-01 sshd[1675]: Failed password for invalid user test from 203.124.238.34 port 35140 ssh2
+Nov 20 08:40:44 bastion-01 sshd[1565]: Failed password for invalid user oracle from 203.124.238.34 port 31264 ssh2
+Nov 20 08:40:47 bastion-01 sshd[4563]: Failed password for invalid user test from 203.124.238.34 port 55344 ssh2
+Nov 20 08:40:50 bastion-01 sshd[9961]: Failed password for root from 203.124.238.34 port 55561 ssh2
+Nov 20 08:40:53 bastion-01 sshd[9265]: Failed password for invalid user admin from 203.124.238.34 port 45405 ssh2
+Nov 20 08:40:56 bastion-01 sshd[6097]: Failed password for invalid user admin from 203.124.238.34 port 56171 ssh2
+Nov 20 08:40:59 bastion-01 sshd[2602]: Failed password for invalid user admin from 203.124.238.34 port 56458 ssh2
+Nov 20 08:41:02 bastion-01 sshd[4439]: Failed password for invalid user oracle from 203.124.238.34 port 37519 ssh2
+Nov 20 08:41:05 bastion-01 sshd[5009]: Failed password for invalid user admin from 203.124.238.34 port 56629 ssh2
+Nov 20 08:45:43 bastion-01 sshd[4422]: Accepted password for dave from 10.0.0.44 port 36409 ssh2
+Nov 20 08:53:08 bastion-01 sshd[8840]: Accepted password for alice from 10.0.0.24 port 49556 ssh2
+Nov 20 08:54:37 bastion-01 sshd[1075]: Accepted password for dave from 10.0.0.7 port 43646 ssh2
+Nov 20 08:55:30 bastion-01 sshd[6584]: Failed password for invalid user test from 185.237.23.57 port 37568 ssh2
+Nov 20 08:55:33 bastion-01 sshd[5453]: Failed password for invalid user test from 185.237.23.57 port 37246 ssh2
+Nov 20 08:55:36 bastion-01 sshd[6893]: Failed password for invalid user test from 185.237.23.57 port 31473 ssh2
+Nov 20 08:55:39 bastion-01 sshd[9525]: Failed password for invalid user oracle from 185.237.23.57 port 51469 ssh2
+Nov 20 08:55:42 bastion-01 sshd[8255]: Failed password for invalid user test from 185.237.23.57 port 34381 ssh2
+Nov 20 08:55:45 bastion-01 sshd[9840]: Failed password for invalid user admin from 185.237.23.57 port 53151 ssh2
+Nov 20 08:55:48 bastion-01 sshd[3199]: Failed password for root from 185.237.23.57 port 51823 ssh2
+Nov 20 08:55:51 bastion-01 sshd[5341]: Failed password for invalid user test from 185.237.23.57 port 34395 ssh2
+Nov 20 08:55:54 bastion-01 sshd[6083]: Failed password for invalid user admin from 185.237.23.57 port 41388 ssh2
+Nov 20 08:55:57 bastion-01 sshd[5330]: Failed password for alice from 185.237.23.57 port 56224 ssh2
+Nov 20 08:56:00 bastion-01 sshd[8651]: Failed password for invalid user admin from 185.237.23.57 port 37410 ssh2
+Nov 20 08:56:03 bastion-01 sshd[4744]: Failed password for invalid user test from 185.237.23.57 port 52599 ssh2
+Nov 20 08:56:06 bastion-01 sshd[3587]: Failed password for invalid user test from 185.237.23.57 port 50632 ssh2
+Nov 20 08:56:09 bastion-01 sshd[2777]: Failed password for invalid user admin from 185.237.23.57 port 50766 ssh2
+Nov 20 08:56:12 bastion-01 sshd[4333]: Failed password for root from 185.237.23.57 port 55013 ssh2
+Nov 20 08:56:15 bastion-01 sshd[1623]: Failed password for alice from 185.237.23.57 port 56512 ssh2
+Nov 20 08:56:18 bastion-01 sshd[6040]: Failed password for invalid user oracle from 185.237.23.57 port 46468 ssh2
+Nov 20 08:56:21 bastion-01 sshd[9774]: Failed password for root from 185.237.23.57 port 48728 ssh2
+Nov 20 08:56:24 bastion-01 sshd[9622]: Failed password for root from 185.237.23.57 port 56630 ssh2
+Nov 20 08:56:27 bastion-01 sshd[2172]: Failed password for invalid user test from 185.237.23.57 port 35519 ssh2
+Nov 20 08:57:22 bastion-01 sshd[9535]: Accepted password for bob from 10.0.0.52 port 36542 ssh2
+Nov 20 09:11:30 bastion-01 sshd[4646]: Accepted password for alice from 10.0.0.33 port 38564 ssh2
+Nov 20 09:14:04 bastion-01 sshd[7713]: Accepted password for dave from 10.0.0.52 port 36015 ssh2
+Nov 20 09:14:48 bastion-01 sshd[7595]: Accepted password for bob from 10.0.0.21 port 55533 ssh2
+Nov 20 09:17:50 bastion-01 sshd[4334]: Accepted password for bob from 10.0.0.4 port 48725 ssh2
+Nov 20 09:24:50 bastion-01 sshd[8742]: Accepted password for alice from 10.0.0.31 port 55552 ssh2
+Nov 20 09:26:57 bastion-01 sshd[9430]: Accepted password for alice from 10.0.0.9 port 30183 ssh2
+Nov 20 09:28:15 bastion-01 sshd[4940]: Accepted password for dave from 10.0.0.48 port 43533 ssh2
+Nov 20 09:28:52 bastion-01 sshd[7443]: Accepted password for dave from 10.0.0.51 port 53740 ssh2
+Nov 20 09:37:02 bastion-01 sshd[2626]: Accepted password for dave from 10.0.0.16 port 47244 ssh2
+Nov 20 09:43:56 bastion-01 sshd[8554]: Failed password for bob from 10.0.0.44 port 32387 ssh2
+Nov 20 09:46:04 bastion-01 sshd[7425]: Accepted password for dave from 10.0.0.15 port 48886 ssh2
+Nov 20 09:46:06 bastion-01 sshd[3516]: Accepted password for bob from 10.0.0.47 port 42700 ssh2
+Nov 20 09:55:48 bastion-01 sshd[2054]: Accepted password for alice from 10.0.0.32 port 34023 ssh2
+Nov 20 10:00:14 bastion-01 sshd[8737]: Accepted password for bob from 10.0.0.29 port 47879 ssh2
+Nov 20 10:04:22 bastion-01 sshd[3178]: Failed password for bob from 10.0.0.17 port 55294 ssh2
+Nov 20 10:06:33 bastion-01 sshd[3054]: Accepted password for dave from 10.0.0.9 port 50866 ssh2
+Nov 20 10:16:51 bastion-01 sshd[7867]: Accepted password for alice from 10.0.0.51 port 48508 ssh2
+Nov 20 10:17:31 bastion-01 sshd[3976]: Accepted password for alice from 10.0.0.22 port 58067 ssh2
+Nov 20 10:27:50 bastion-01 sshd[8896]: Accepted password for dave from 10.0.0.20 port 31200 ssh2
+Nov 20 10:31:23 bastion-01 sshd[7251]: Accepted password for dave from 10.0.0.31 port 32118 ssh2
+Nov 20 10:36:32 bastion-01 sshd[9310]: Accepted password for alice from 10.0.0.14 port 52377 ssh2
+Nov 20 10:46:33 bastion-01 sshd[3235]: Accepted password for dave from 10.0.0.58 port 44614 ssh2
+Nov 20 10:50:38 bastion-01 sshd[3423]: Accepted password for bob from 10.0.0.38 port 55257 ssh2
+Nov 20 10:52:03 bastion-01 sshd[7741]: Accepted password for bob from 10.0.0.14 port 50097 ssh2
+Nov 20 10:59:47 bastion-01 sshd[5747]: Accepted password for alice from 10.0.0.48 port 32671 ssh2
+Nov 20 11:04:35 bastion-01 sshd[9357]: Accepted password for bob from 10.0.0.29 port 37615 ssh2
+Nov 20 11:08:14 bastion-01 sshd[1390]: Accepted password for dave from 10.0.0.2 port 43291 ssh2
+Nov 20 11:11:43 bastion-01 sshd[1828]: Accepted password for alice from 10.0.0.43 port 40923 ssh2
+Nov 20 11:14:51 bastion-01 sshd[8904]: Failed password for invalid user admin from 198.218.95.24 port 38551 ssh2
+Nov 20 11:14:54 bastion-01 sshd[7720]: Failed password for invalid user test from 198.218.95.24 port 49621 ssh2
+Nov 20 11:14:57 bastion-01 sshd[8430]: Failed password for alice from 198.218.95.24 port 38367 ssh2
+Nov 20 11:15:00 bastion-01 sshd[5882]: Failed password for alice from 198.218.95.24 port 36818 ssh2
+Nov 20 11:15:03 bastion-01 sshd[4584]: Failed password for invalid user admin from 198.218.95.24 port 31864 ssh2
+Nov 20 11:15:06 bastion-01 sshd[6421]: Failed password for root from 198.218.95.24 port 54723 ssh2
+Nov 20 11:15:09 bastion-01 sshd[2179]: Failed password for root from 198.218.95.24 port 50630 ssh2
+Nov 20 11:15:12 bastion-01 sshd[7724]: Failed password for invalid user oracle from 198.218.95.24 port 57333 ssh2
+Nov 20 11:15:15 bastion-01 sshd[5508]: Failed password for root from 198.218.95.24 port 47888 ssh2
+Nov 20 11:15:18 bastion-01 sshd[2875]: Failed password for invalid user test from 198.218.95.24 port 38622 ssh2
+Nov 20 11:15:21 bastion-01 sshd[9495]: Failed password for invalid user oracle from 198.218.95.24 port 38578 ssh2
+Nov 20 11:15:24 bastion-01 sshd[7205]: Failed password for invalid user test from 198.218.95.24 port 52365 ssh2
+Nov 20 11:15:27 bastion-01 sshd[8821]: Failed password for invalid user oracle from 198.218.95.24 port 47255 ssh2
+Nov 20 11:15:30 bastion-01 sshd[2958]: Failed password for root from 198.218.95.24 port 55599 ssh2
+Nov 20 11:15:33 bastion-01 sshd[3407]: Failed password for alice from 198.218.95.24 port 40644 ssh2
+Nov 20 11:15:36 bastion-01 sshd[7934]: Failed password for invalid user admin from 198.218.95.24 port 31293 ssh2
+Nov 20 11:15:39 bastion-01 sshd[5944]: Failed password for invalid user test from 198.218.95.24 port 43442 ssh2
+Nov 20 11:23:08 bastion-01 sshd[5717]: Accepted password for alice from 10.0.0.36 port 50654 ssh2
+Nov 20 11:23:13 bastion-01 sshd[3885]: Accepted password for dave from 10.0.0.54 port 54538 ssh2
+Nov 20 11:27:46 bastion-01 sshd[6229]: Accepted password for dave from 10.0.0.32 port 41986 ssh2
+Nov 20 11:27:57 bastion-01 sshd[1523]: Accepted password for bob from 10.0.0.16 port 57519 ssh2
+Nov 20 11:32:41 bastion-01 sshd[1936]: Accepted password for bob from 10.0.0.52 port 36097 ssh2
+Nov 20 11:50:10 bastion-01 sshd[3200]: Accepted password for alice from 10.0.0.51 port 39455 ssh2
+Nov 20 11:54:22 bastion-01 sshd[5537]: Accepted password for bob from 10.0.0.53 port 56271 ssh2
+Nov 20 11:56:53 bastion-01 sshd[7050]: Accepted password for bob from 10.0.0.18 port 48075 ssh2
+Nov 20 11:57:30 bastion-01 sshd[4278]: Accepted password for bob from 10.0.0.6 port 36949 ssh2
+Nov 20 12:14:41 bastion-01 sshd[5519]: Accepted password for bob from 10.0.0.49 port 40513 ssh2
+Nov 20 12:17:18 bastion-01 sshd[9096]: Accepted password for alice from 10.0.0.52 port 30344 ssh2
+Nov 20 12:23:23 bastion-01 sshd[5033]: Accepted password for bob from 10.0.0.48 port 34579 ssh2
+Nov 20 12:29:58 bastion-01 sshd[2756]: Accepted password for bob from 10.0.0.16 port 58258 ssh2
+Nov 20 12:39:36 bastion-01 sshd[5197]: Accepted password for dave from 10.0.0.58 port 38930 ssh2
+Nov 20 12:39:39 bastion-01 sshd[6245]: Accepted password for dave from 10.0.0.49 port 43880 ssh2
+Nov 20 12:43:50 bastion-01 sshd[7595]: Accepted password for bob from 10.0.0.52 port 53583 ssh2
+Nov 20 13:05:56 bastion-01 sshd[5729]: Accepted password for alice from 10.0.0.11 port 33839 ssh2
+Nov 20 13:08:54 bastion-01 sshd[7074]: Failed password for invalid user test from 203.228.166.81 port 46140 ssh2
+Nov 20 13:09:39 bastion-01 sshd[8206]: Failed password for root from 203.228.166.81 port 53704 ssh2
+Nov 20 13:10:24 bastion-01 sshd[4807]: Failed password for invalid user oracle from 203.228.166.81 port 31213 ssh2
+Nov 20 13:10:40 bastion-01 sshd[8144]: Failed password for invalid user test from 45.135.89.123 port 47089 ssh2
+Nov 20 13:10:43 bastion-01 sshd[1442]: Failed password for alice from 45.135.89.123 port 39669 ssh2
+Nov 20 13:10:46 bastion-01 sshd[3318]: Failed password for invalid user test from 45.135.89.123 port 48142 ssh2
+Nov 20 13:10:49 bastion-01 sshd[2753]: Failed password for root from 45.135.89.123 port 36141 ssh2
+Nov 20 13:10:52 bastion-01 sshd[1233]: Failed password for invalid user test from 45.135.89.123 port 35276 ssh2
+Nov 20 13:10:55 bastion-01 sshd[8687]: Failed password for invalid user admin from 45.135.89.123 port 51779 ssh2
+Nov 20 13:10:58 bastion-01 sshd[2032]: Failed password for invalid user test from 45.135.89.123 port 58013 ssh2
+Nov 20 13:11:01 bastion-01 sshd[7453]: Failed password for invalid user oracle from 45.135.89.123 port 38846 ssh2
+Nov 20 13:11:04 bastion-01 sshd[3059]: Failed password for invalid user admin from 45.135.89.123 port 50981 ssh2
+Nov 20 13:11:07 bastion-01 sshd[9097]: Failed password for invalid user test from 45.135.89.123 port 43087 ssh2
+Nov 20 13:11:09 bastion-01 sshd[9884]: Failed password for alice from 203.228.166.81 port 30343 ssh2
+Nov 20 13:11:10 bastion-01 sshd[5020]: Failed password for alice from 45.135.89.123 port 48623 ssh2
+Nov 20 13:11:13 bastion-01 sshd[2036]: Failed password for root from 45.135.89.123 port 46938 ssh2
+Nov 20 13:11:16 bastion-01 sshd[9118]: Failed password for invalid user oracle from 45.135.89.123 port 54313 ssh2
+Nov 20 13:11:19 bastion-01 sshd[1916]: Failed password for root from 45.135.89.123 port 32429 ssh2
+Nov 20 13:11:22 bastion-01 sshd[6272]: Failed password for invalid user test from 45.135.89.123 port 36342 ssh2
+Nov 20 13:11:25 bastion-01 sshd[5094]: Failed password for invalid user admin from 45.135.89.123 port 37557 ssh2
+Nov 20 13:11:28 bastion-01 sshd[9890]: Failed password for invalid user admin from 45.135.89.123 port 36963 ssh2
+Nov 20 13:11:54 bastion-01 sshd[1707]: Failed password for invalid user admin from 203.228.166.81 port 47957 ssh2
+Nov 20 13:12:39 bastion-01 sshd[7818]: Failed password for invalid user oracle from 203.228.166.81 port 37716 ssh2
+Nov 20 13:13:24 bastion-01 sshd[4623]: Failed password for root from 203.228.166.81 port 53298 ssh2
+Nov 20 13:14:09 bastion-01 sshd[7072]: Failed password for alice from 203.228.166.81 port 40315 ssh2
+Nov 20 13:14:16 bastion-01 sshd[9644]: Accepted password for bob from 10.0.0.57 port 39289 ssh2
+Nov 20 13:14:54 bastion-01 sshd[1461]: Failed password for invalid user test from 203.228.166.81 port 59759 ssh2
+Nov 20 13:15:39 bastion-01 sshd[4497]: Failed password for root from 203.228.166.81 port 46666 ssh2
+Nov 20 13:16:24 bastion-01 sshd[7972]: Failed password for invalid user test from 203.228.166.81 port 39930 ssh2
+Nov 20 13:16:59 bastion-01 sshd[7182]: Accepted password for alice from 10.0.0.57 port 45749 ssh2
+Nov 20 13:17:09 bastion-01 sshd[5577]: Failed password for invalid user oracle from 203.228.166.81 port 44146 ssh2
+Nov 20 13:17:54 bastion-01 sshd[3156]: Failed password for invalid user admin from 203.228.166.81 port 43732 ssh2
+Nov 20 13:18:39 bastion-01 sshd[1154]: Failed password for root from 203.228.166.81 port 36697 ssh2
+Nov 20 13:19:17 bastion-01 sshd[6845]: Accepted password for dave from 10.0.0.49 port 54094 ssh2
+Nov 20 13:19:24 bastion-01 sshd[2803]: Failed password for alice from 203.228.166.81 port 32697 ssh2
+Nov 20 13:20:09 bastion-01 sshd[2264]: Failed password for alice from 203.228.166.81 port 42232 ssh2
+Nov 20 13:20:54 bastion-01 sshd[2050]: Failed password for alice from 203.228.166.81 port 43245 ssh2
+Nov 20 13:27:54 bastion-01 sshd[3629]: Failed password for bob from 10.0.0.24 port 35175 ssh2
+Nov 20 13:30:09 bastion-01 sshd[8006]: Accepted password for alice from 10.0.0.41 port 50378 ssh2
+Nov 20 13:31:51 bastion-01 sshd[7076]: Accepted password for bob from 10.0.0.53 port 35524 ssh2
+Nov 20 13:37:56 bastion-01 sshd[6019]: Accepted password for dave from 10.0.0.43 port 43451 ssh2
+Nov 20 13:38:01 bastion-01 sshd[4446]: Accepted password for alice from 10.0.0.31 port 33399 ssh2
+Nov 20 13:40:18 bastion-01 sshd[5170]: Accepted password for bob from 10.0.0.35 port 56396 ssh2
+Nov 20 13:48:37 bastion-01 sshd[8199]: Accepted password for bob from 10.0.0.29 port 58082 ssh2
+Nov 20 13:49:58 bastion-01 sshd[3419]: Accepted password for alice from 10.0.0.41 port 40298 ssh2
+Nov 20 13:50:04 bastion-01 sshd[4626]: Accepted password for dave from 10.0.0.15 port 35626 ssh2
+Nov 20 13:50:38 bastion-01 sshd[5898]: Accepted password for bob from 10.0.0.31 port 46517 ssh2
+Nov 20 13:52:21 bastion-01 sshd[3872]: Accepted password for dave from 10.0.0.2 port 39517 ssh2
+Nov 20 14:00:20 bastion-01 sshd[6673]: Accepted password for dave from 10.0.0.49 port 53997 ssh2
+Nov 20 14:19:09 bastion-01 sshd[3265]: Accepted password for alice from 10.0.0.8 port 50650 ssh2
+Nov 20 14:26:02 bastion-01 sshd[3477]: Accepted password for dave from 10.0.0.59 port 49865 ssh2
+Nov 20 14:27:08 bastion-01 sshd[2736]: Accepted password for alice from 10.0.0.50 port 58013 ssh2
+Nov 20 14:34:37 bastion-01 sshd[7041]: Accepted password for dave from 10.0.0.26 port 32950 ssh2
+Nov 20 14:36:35 bastion-01 sshd[8363]: Accepted password for bob from 10.0.0.39 port 31036 ssh2
+Nov 20 14:38:16 bastion-01 sshd[6645]: Accepted password for dave from 10.0.0.3 port 43560 ssh2
+Nov 20 14:41:17 bastion-01 sshd[6934]: Accepted password for dave from 10.0.0.27 port 57360 ssh2
+Nov 20 14:48:42 bastion-01 sshd[3967]: Accepted password for bob from 10.0.0.38 port 55007 ssh2
+Nov 20 14:51:50 bastion-01 sshd[8355]: Accepted password for alice from 10.0.0.17 port 38649 ssh2
+Nov 20 14:52:41 bastion-01 sshd[2886]: Accepted password for dave from 10.0.0.58 port 33059 ssh2
+Nov 20 14:56:21 bastion-01 sshd[9141]: Failed password for alice from 10.0.0.47 port 51398 ssh2
+Nov 20 14:57:15 bastion-01 sshd[8299]: Accepted password for bob from 10.0.0.11 port 58228 ssh2
+Nov 20 14:57:40 bastion-01 sshd[4651]: Accepted password for bob from 10.0.0.5 port 47670 ssh2
+Nov 20 15:01:29 bastion-01 sshd[4743]: Accepted password for alice from 10.0.0.28 port 54183 ssh2
+Nov 20 15:08:38 bastion-01 sshd[1554]: Accepted password for dave from 10.0.0.27 port 38074 ssh2
+Nov 20 15:10:51 bastion-01 sshd[1244]: Accepted password for bob from 10.0.0.2 port 58153 ssh2
+Nov 20 15:13:20 bastion-01 sshd[6303]: Accepted password for dave from 10.0.0.58 port 56302 ssh2
+Nov 20 15:13:38 bastion-01 sshd[2036]: Accepted password for alice from 10.0.0.15 port 50295 ssh2
+Nov 20 15:14:49 bastion-01 sshd[1814]: Accepted password for bob from 10.0.0.35 port 54660 ssh2
+Nov 20 15:16:19 bastion-01 sshd[3559]: Accepted password for dave from 10.0.0.44 port 32442 ssh2
+Nov 20 15:36:17 bastion-01 sshd[4674]: Accepted password for alice from 10.0.0.5 port 33012 ssh2
+Nov 20 15:42:53 bastion-01 sshd[1938]: Accepted password for alice from 10.0.0.35 port 42585 ssh2
+Nov 20 15:48:16 bastion-01 sshd[9850]: Accepted password for bob from 10.0.0.11 port 47772 ssh2
+Nov 20 15:54:29 bastion-01 sshd[4129]: Accepted password for dave from 10.0.0.17 port 53641 ssh2
+Nov 20 16:04:57 bastion-01 sshd[8717]: Accepted password for bob from 10.0.0.58 port 54306 ssh2
+Nov 20 16:05:19 bastion-01 sshd[8551]: Accepted password for bob from 10.0.0.31 port 46472 ssh2
+Nov 20 16:06:10 bastion-01 sshd[9575]: Accepted password for dave from 10.0.0.4 port 57648 ssh2
+Nov 20 16:09:37 bastion-01 sshd[3721]: Accepted password for dave from 10.0.0.32 port 59381 ssh2
+Nov 20 16:09:38 bastion-01 sshd[9962]: Accepted password for alice from 10.0.0.13 port 36514 ssh2
+Nov 20 16:09:42 bastion-01 sshd[5874]: Accepted password for alice from 10.0.0.23 port 38751 ssh2
+Nov 20 16:16:45 bastion-01 sshd[4233]: Accepted password for alice from 10.0.0.4 port 51668 ssh2
+Nov 20 16:17:10 bastion-01 sshd[5773]: Accepted password for alice from 10.0.0.7 port 40632 ssh2
+Nov 20 16:19:24 bastion-01 sshd[4905]: Accepted password for dave from 10.0.0.39 port 31750 ssh2
+Nov 20 16:19:24 bastion-01 sshd[8988]: Accepted password for dave from 10.0.0.26 port 51961 ssh2
+Nov 20 16:22:42 bastion-01 sshd[8852]: Accepted password for alice from 10.0.0.6 port 50573 ssh2
+Nov 20 16:23:37 bastion-01 sshd[4360]: Accepted password for bob from 10.0.0.25 port 54843 ssh2
+Nov 20 16:26:26 bastion-01 sshd[9606]: Accepted password for alice from 10.0.0.33 port 35920 ssh2
+Nov 20 16:33:26 bastion-01 sshd[3937]: Accepted password for alice from 10.0.0.22 port 49391 ssh2
+Nov 20 16:34:02 bastion-01 sshd[9993]: Accepted password for alice from 10.0.0.26 port 55658 ssh2
+Nov 20 16:48:21 bastion-01 sshd[9719]: Accepted password for dave from 10.0.0.5 port 50501 ssh2
+Nov 20 16:57:50 bastion-01 sshd[5334]: Accepted password for dave from 10.0.0.11 port 48204 ssh2
+Nov 20 17:01:53 bastion-01 sshd[2039]: Failed password for invalid user test from 45.181.195.87 port 52216 ssh2
+Nov 20 17:01:56 bastion-01 sshd[7277]: Failed password for invalid user oracle from 45.181.195.87 port 51689 ssh2
+Nov 20 17:01:59 bastion-01 sshd[9761]: Failed password for alice from 45.181.195.87 port 42259 ssh2
+Nov 20 17:02:02 bastion-01 sshd[4140]: Failed password for root from 45.181.195.87 port 31688 ssh2
+Nov 20 17:02:05 bastion-01 sshd[7878]: Failed password for alice from 45.181.195.87 port 45490 ssh2
+Nov 20 17:02:08 bastion-01 sshd[4765]: Failed password for invalid user oracle from 45.181.195.87 port 55393 ssh2
+Nov 20 17:02:11 bastion-01 sshd[7784]: Failed password for invalid user oracle from 45.181.195.87 port 37503 ssh2
+Nov 20 17:02:14 bastion-01 sshd[9618]: Failed password for root from 45.181.195.87 port 53530 ssh2
+Nov 20 17:02:17 bastion-01 sshd[2135]: Failed password for invalid user oracle from 45.181.195.87 port 49471 ssh2
+Nov 20 17:02:20 bastion-01 sshd[3626]: Failed password for invalid user oracle from 45.181.195.87 port 49754 ssh2
+Nov 20 17:02:23 bastion-01 sshd[7740]: Failed password for alice from 45.181.195.87 port 57573 ssh2
+Nov 20 17:02:26 bastion-01 sshd[8121]: Failed password for invalid user test from 45.181.195.87 port 49524 ssh2
+Nov 20 17:02:29 bastion-01 sshd[9528]: Failed password for alice from 45.181.195.87 port 32765 ssh2
+Nov 20 17:02:32 bastion-01 sshd[7670]: Failed password for alice from 45.181.195.87 port 41644 ssh2
+Nov 20 17:02:35 bastion-01 sshd[9237]: Failed password for alice from 45.181.195.87 port 44285 ssh2
+Nov 20 17:02:38 bastion-01 sshd[1721]: Failed password for invalid user test from 45.181.195.87 port 38109 ssh2
+Nov 20 17:02:41 bastion-01 sshd[8581]: Failed password for invalid user test from 45.181.195.87 port 37276 ssh2
+Nov 20 17:02:44 bastion-01 sshd[1293]: Failed password for invalid user oracle from 45.181.195.87 port 30157 ssh2
+Nov 20 17:02:47 bastion-01 sshd[1098]: Failed password for alice from 45.181.195.87 port 54969 ssh2
+Nov 20 17:02:50 bastion-01 sshd[6709]: Failed password for invalid user oracle from 45.181.195.87 port 54507 ssh2
+Nov 20 17:02:53 bastion-01 sshd[8648]: Failed password for invalid user oracle from 45.181.195.87 port 50143 ssh2
+Nov 20 17:02:56 bastion-01 sshd[5165]: Failed password for alice from 45.181.195.87 port 42671 ssh2
+Nov 20 17:02:59 bastion-01 sshd[9563]: Failed password for root from 45.181.195.87 port 38662 ssh2
+Nov 20 17:03:02 bastion-01 sshd[5554]: Failed password for alice from 45.181.195.87 port 37548 ssh2
+Nov 20 17:03:05 bastion-01 sshd[1964]: Failed password for invalid user test from 45.181.195.87 port 39045 ssh2
+Nov 20 17:03:08 bastion-01 sshd[2144]: Failed password for invalid user test from 45.181.195.87 port 32352 ssh2
+Nov 20 17:03:11 bastion-01 sshd[7985]: Failed password for invalid user admin from 45.181.195.87 port 35569 ssh2
+Nov 20 17:04:13 bastion-01 sshd[5479]: Accepted password for dave from 10.0.0.16 port 56392 ssh2
+Nov 20 17:14:49 bastion-01 sshd[6966]: Accepted password for bob from 10.0.0.48 port 38017 ssh2
+Nov 20 17:17:44 bastion-01 sshd[7511]: Accepted password for alice from 10.0.0.20 port 45064 ssh2
+Nov 20 17:26:19 bastion-01 sshd[8501]: Accepted password for dave from 10.0.0.15 port 54626 ssh2
+Nov 20 17:26:46 bastion-01 sshd[1388]: Accepted password for alice from 10.0.0.3 port 53062 ssh2
+Nov 20 17:28:16 bastion-01 sshd[9224]: Accepted password for alice from 10.0.0.57 port 57600 ssh2
+Nov 20 17:44:30 bastion-01 sshd[2271]: Accepted password for dave from 10.0.0.13 port 47951 ssh2
+Nov 20 17:45:52 bastion-01 sshd[8287]: Accepted password for bob from 10.0.0.51 port 30460 ssh2
+Nov 20 17:48:12 bastion-01 sshd[9241]: Accepted password for alice from 10.0.0.33 port 50768 ssh2
+Nov 20 17:48:49 bastion-01 sshd[7319]: Failed password for alice from 10.0.0.59 port 52569 ssh2
+Nov 20 17:59:09 bastion-01 sshd[1619]: Accepted password for dave from 10.0.0.57 port 58233 ssh2
+Nov 20 17:59:13 bastion-01 sshd[7840]: Accepted password for dave from 10.0.0.57 port 49688 ssh2
+Nov 20 18:03:10 bastion-01 sshd[8984]: Accepted password for dave from 10.0.0.18 port 35283 ssh2
+Nov 20 18:04:37 bastion-01 sshd[7877]: Accepted password for dave from 10.0.0.44 port 46300 ssh2
+Nov 20 18:09:11 bastion-01 sshd[6765]: Accepted password for alice from 10.0.0.12 port 52073 ssh2
+Nov 20 18:11:27 bastion-01 sshd[1324]: Accepted password for alice from 10.0.0.42 port 53394 ssh2
+Nov 20 18:11:27 bastion-01 sshd[8601]: Accepted password for bob from 10.0.0.58 port 43066 ssh2
+Nov 20 18:13:17 bastion-01 sshd[6757]: Accepted password for bob from 10.0.0.4 port 34891 ssh2
+Nov 20 18:18:52 bastion-01 sshd[3323]: Accepted password for bob from 10.0.0.18 port 36998 ssh2
+Nov 20 18:21:27 bastion-01 sshd[8963]: Accepted password for dave from 10.0.0.48 port 43100 ssh2
+Nov 20 18:27:41 bastion-01 sshd[4792]: Accepted password for dave from 10.0.0.23 port 37334 ssh2
+Nov 20 18:27:48 bastion-01 sshd[4395]: Accepted password for bob from 10.0.0.18 port 33636 ssh2
+Nov 20 18:29:07 bastion-01 sshd[8893]: Accepted password for alice from 10.0.0.28 port 57526 ssh2
+Nov 20 18:44:43 bastion-01 sshd[6001]: Accepted password for bob from 10.0.0.55 port 48783 ssh2
+Nov 20 18:47:26 bastion-01 sshd[3608]: Accepted password for alice from 10.0.0.27 port 31876 ssh2
+Nov 20 18:57:13 bastion-01 sshd[1320]: Accepted password for bob from 10.0.0.16 port 41711 ssh2
+Nov 20 19:00:41 bastion-01 sshd[6901]: Accepted password for bob from 10.0.0.37 port 35422 ssh2
+Nov 20 19:07:08 bastion-01 sshd[3630]: Accepted password for dave from 10.0.0.46 port 50320 ssh2
+Nov 20 19:10:41 bastion-01 sshd[6588]: Accepted password for alice from 10.0.0.19 port 57321 ssh2
+Nov 20 19:19:04 bastion-01 sshd[1584]: Accepted password for alice from 10.0.0.26 port 57068 ssh2
+Nov 20 19:23:33 bastion-01 sshd[2475]: Accepted password for alice from 10.0.0.31 port 57425 ssh2
+Nov 20 19:25:14 bastion-01 sshd[8016]: Accepted password for bob from 10.0.0.55 port 33521 ssh2
+Nov 20 19:27:23 bastion-01 sshd[6835]: Failed password for dave from 10.0.0.9 port 36389 ssh2
+Nov 20 20:00:25 bastion-01 sshd[9373]: Accepted password for alice from 10.0.0.3 port 47443 ssh2
+Nov 20 20:20:06 bastion-01 sshd[5062]: Accepted password for bob from 10.0.0.24 port 57804 ssh2
+Nov 20 20:23:06 bastion-01 sshd[1240]: Accepted password for dave from 10.0.0.24 port 45027 ssh2
+Nov 20 20:26:13 bastion-01 sshd[6968]: Accepted password for bob from 10.0.0.35 port 41700 ssh2
+Nov 20 20:40:49 bastion-01 sshd[2231]: Accepted password for bob from 10.0.0.58 port 54389 ssh2
+Nov 20 20:44:13 bastion-01 sshd[2237]: Accepted password for dave from 10.0.0.48 port 46120 ssh2
+Nov 20 20:47:00 bastion-01 sshd[6225]: Accepted password for alice from 10.0.0.21 port 31504 ssh2
+Nov 20 20:47:23 bastion-01 sshd[3783]: Accepted password for dave from 10.0.0.41 port 52699 ssh2
+Nov 20 20:48:57 bastion-01 sshd[7170]: Accepted password for dave from 10.0.0.9 port 38314 ssh2
+Nov 20 20:59:47 bastion-01 sshd[5805]: Accepted password for alice from 10.0.0.55 port 56621 ssh2
+Nov 20 21:02:05 bastion-01 sshd[7320]: Accepted password for alice from 10.0.0.42 port 46787 ssh2
+Nov 20 21:07:31 bastion-01 sshd[6206]: Accepted password for bob from 10.0.0.8 port 53297 ssh2
+Nov 20 21:11:22 bastion-01 sshd[8493]: Accepted password for dave from 10.0.0.19 port 51440 ssh2
+Nov 20 21:12:22 bastion-01 sshd[1126]: Accepted password for dave from 10.0.0.16 port 46159 ssh2
+Nov 20 21:29:53 bastion-01 sshd[5751]: Accepted password for dave from 10.0.0.3 port 35705 ssh2
+Nov 20 21:36:02 bastion-01 sshd[9495]: Failed password for bob from 10.0.0.54 port 53990 ssh2
+Nov 20 21:38:35 bastion-01 sshd[4315]: Accepted password for dave from 10.0.0.45 port 49345 ssh2
+Nov 20 21:39:10 bastion-01 sshd[1998]: Failed password for alice from 10.0.0.21 port 43455 ssh2
+Nov 20 21:39:35 bastion-01 sshd[3439]: Failed password for alice from 10.0.0.52 port 47819 ssh2
+Nov 20 21:44:50 bastion-01 sshd[9020]: Accepted password for bob from 10.0.0.42 port 30506 ssh2
+Nov 20 21:46:29 bastion-01 sshd[6043]: Accepted password for dave from 10.0.0.26 port 44213 ssh2
+Nov 20 21:46:41 bastion-01 sshd[9515]: Failed password for invalid user admin from 45.209.116.32 port 48738 ssh2
+Nov 20 21:46:44 bastion-01 sshd[4125]: Failed password for invalid user admin from 45.209.116.32 port 54989 ssh2
+Nov 20 21:46:47 bastion-01 sshd[5095]: Failed password for root from 45.209.116.32 port 43022 ssh2
+Nov 20 21:46:50 bastion-01 sshd[9503]: Failed password for invalid user oracle from 45.209.116.32 port 49600 ssh2
+Nov 20 21:46:53 bastion-01 sshd[7586]: Failed password for alice from 45.209.116.32 port 40356 ssh2
+Nov 20 21:46:56 bastion-01 sshd[2701]: Failed password for invalid user test from 45.209.116.32 port 34397 ssh2
+Nov 20 21:46:59 bastion-01 sshd[8237]: Failed password for invalid user admin from 45.209.116.32 port 45673 ssh2
+Nov 20 21:47:02 bastion-01 sshd[7801]: Failed password for invalid user test from 45.209.116.32 port 43261 ssh2
+Nov 20 21:47:05 bastion-01 sshd[7832]: Failed password for invalid user admin from 45.209.116.32 port 42948 ssh2
+Nov 20 21:47:08 bastion-01 sshd[1570]: Failed password for invalid user oracle from 45.209.116.32 port 59669 ssh2
+Nov 20 21:47:11 bastion-01 sshd[4490]: Failed password for invalid user admin from 45.209.116.32 port 56990 ssh2
+Nov 20 21:47:14 bastion-01 sshd[4831]: Failed password for invalid user oracle from 45.209.116.32 port 32513 ssh2
+Nov 20 21:47:17 bastion-01 sshd[2012]: Failed password for invalid user oracle from 45.209.116.32 port 47311 ssh2
+Nov 20 21:47:20 bastion-01 sshd[7687]: Failed password for invalid user admin from 45.209.116.32 port 38398 ssh2
+Nov 20 21:47:23 bastion-01 sshd[5015]: Failed password for alice from 45.209.116.32 port 40498 ssh2
+Nov 20 21:49:09 bastion-01 sshd[2890]: Accepted password for alice from 10.0.0.53 port 50581 ssh2
+Nov 20 21:49:38 bastion-01 sshd[3183]: Accepted password for bob from 10.0.0.18 port 50377 ssh2
+Nov 20 21:56:33 bastion-01 sshd[2636]: Accepted password for dave from 10.0.0.59 port 34338 ssh2
+Nov 20 21:59:44 bastion-01 sshd[8846]: Accepted password for dave from 10.0.0.39 port 51054 ssh2
+Nov 20 22:17:56 bastion-01 sshd[7114]: Accepted password for alice from 10.0.0.25 port 40960 ssh2
+Nov 20 22:30:42 bastion-01 sshd[8501]: Accepted password for dave from 10.0.0.3 port 41827 ssh2
+Nov 20 22:37:36 bastion-01 sshd[7618]: Accepted password for alice from 10.0.0.49 port 33841 ssh2
+Nov 20 22:41:05 bastion-01 sshd[7114]: Accepted password for dave from 10.0.0.17 port 30507 ssh2
+Nov 20 22:42:43 bastion-01 sshd[9510]: Accepted password for dave from 10.0.0.8 port 35751 ssh2
+Nov 20 22:45:35 bastion-01 sshd[2311]: Accepted password for dave from 10.0.0.38 port 45341 ssh2
+Nov 20 22:53:35 bastion-01 sshd[2484]: Accepted password for alice from 10.0.0.20 port 47843 ssh2
+Nov 20 23:27:29 bastion-01 sshd[8443]: Accepted password for alice from 10.0.0.36 port 50922 ssh2
+Nov 20 23:28:51 bastion-01 sshd[1661]: Accepted password for alice from 10.0.0.56 port 34201 ssh2
+Nov 20 23:31:56 bastion-01 sshd[6100]: Failed password for bob from 10.0.0.11 port 53174 ssh2
+Nov 20 23:32:30 bastion-01 sshd[8413]: Accepted password for alice from 10.0.0.13 port 44508 ssh2
+Nov 20 23:32:35 bastion-01 sshd[5720]: Accepted password for alice from 10.0.0.54 port 53594 ssh2
+Nov 20 23:40:18 bastion-01 sshd[3962]: Failed password for dave from 10.0.0.54 port 34771 ssh2
+Nov 20 23:44:52 bastion-01 sshd[8916]: Accepted password for alice from 10.0.0.19 port 48225 ssh2
+Nov 20 23:46:56 bastion-01 sshd[8104]: Accepted password for alice from 10.0.0.33 port 42556 ssh2
+Nov 20 23:52:56 bastion-01 sshd[6316]: Accepted password for dave from 10.0.0.12 port 42425 ssh2
+Nov 20 23:58:16 bastion-01 sshd[8870]: Accepted password for alice from 10.0.0.10 port 40716 ssh2
